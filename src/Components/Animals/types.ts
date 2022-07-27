@@ -17,13 +17,3 @@ export type InfoAboutAnimal = {
   environment: string
   nutrition: string
 }
-
-/*type Druh = {
-  druhoveJmeno: string
-  zvirata: Zvire[]
-}
-
-type Zvire = {
-  nazev: string
-}
-*/

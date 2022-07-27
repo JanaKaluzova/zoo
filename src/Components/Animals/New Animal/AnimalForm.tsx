@@ -12,7 +12,6 @@ export const AnimalForm = (props: Props) => {
   const [enteredlatinName, setEnteredlatinName] = useState('')
   const [enteredorigin, setEnteredorigin] = useState('')
   const [enteredage, setEnteredAge] = useState('')
-
   const [selectedWinterSleep, setSelectedWinterSleep] = useState('')
   const [selectedEnvironment, setSelectedEnvironment] = useState('')
   const [selectedNutrition, setSelectedNutrition] = useState('')
