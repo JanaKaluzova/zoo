@@ -1,0 +1,37 @@
+new-animal__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .new-animal__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+    margin-top: 0.5rem
+  }
+  
+  .new-animal__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+  }
+  
+  .new-animal__actions {
+    text-align: right;
+  }
+
+  .new-animal__control select {
+    font: inherit;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 21rem;
+    max-width: 100%;
+  }

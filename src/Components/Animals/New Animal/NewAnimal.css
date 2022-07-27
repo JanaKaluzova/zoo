@@ -1,0 +1,38 @@
+.new-animal {
+    background-color: #9fc194;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  }
+  
+  .new-animal button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #618066;
+    background-color: #618066;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+  }
+  
+  .new-animal button:hover,
+  .new-animal button:active {
+    background-color: #618066;
+    border-color: #618066;
+  }
+  
+  .new-animal button.alternative {
+    color: #618066;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+  .new-animal button.alternative:hover,
+  .new-anial button.alternative:active {
+    background-color: #618066;
+  }
