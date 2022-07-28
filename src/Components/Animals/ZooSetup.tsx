@@ -2,7 +2,8 @@ import { AnimalFilter } from './AnimalFilter'
 import { useState } from 'react'
 import './ZooSetup.css'
 import { Animal } from './types'
-import { AnimalType } from './AnimalType'
+
+import { ZooList } from './ZooList'
 
 type Props = {
   species: Animal[]
@@ -21,15 +22,14 @@ export const ZooSetup: React.FC<Props> = ({ species }) => {
       : species.filter((species: Animal) => {
           return species.species.toLowerCase() === filteredSpecies.toLowerCase()
         })
+
   return (
     <>
       <div>
         <AnimalFilter onChangeFilter={filterChangeHandler} />
       </div>
       <div className="animalCard">
-        {filteredAnimals.map((species: Animal) => (
-          <AnimalType key={species.latinName} animal={species} />
-        ))}
+        <ZooList items={filteredAnimals} />
       </div>
     </>
   )

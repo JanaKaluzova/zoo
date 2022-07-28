@@ -1,0 +1,12 @@
+.zoo-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 0px;
+  }
+  
+  .zoo-list__fallback {
+    color: white;
+    text-align: center;
+  }
