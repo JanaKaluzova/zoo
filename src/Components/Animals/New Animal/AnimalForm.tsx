@@ -4,6 +4,7 @@ import { Animal } from '../types'
 
 export type Props = {
   onSaveFormData: (data: Animal) => void
+  onCancel: () => void
 }
 
 export const AnimalForm = (props: Props) => {
@@ -133,6 +134,9 @@ export const AnimalForm = (props: Props) => {
         </div>
       </div>
       <div className="new-animal__actions">
+        <button type="button" onClick={props.onCancel}>
+          Cancel
+        </button>
         <button type="submit">Add animal</button>
       </div>
     </form>
